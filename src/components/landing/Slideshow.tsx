@@ -1,5 +1,5 @@
 //import { useTranslation } from "react-i18next";
-
+//import tailwindcss from "@tailwindcss/vite";
 import Kiwi1 from "../../assets/slideshow/kiwi/Kiwi1.jpg";
 //import Kiwi1 from "@/assets/slideshow/kiwi/Kiwi1.jpg";
 import Kiwi2 from "../../assets/slideshow/kiwi/Kiwi2.jpg";
