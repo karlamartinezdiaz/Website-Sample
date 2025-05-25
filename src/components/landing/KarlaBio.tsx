@@ -24,7 +24,9 @@ const KarlaBio = () => {
             Computer Science. Throughout my time at PSU I tutored incoming
             Computer Science students to succeed. I would love to flex all that
             I've learned at my time as a student in a real world setting like
-            assisting the Ladies Club with their Web Development endevors
+            assisting the Ladies Club with their Web Development endevors. I
+            hope this simple website displays my eagerness to learn and grow
+            alongside a team of other professionals.
           </p>
         </div>
       </div>
