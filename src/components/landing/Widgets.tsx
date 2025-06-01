@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import Insta from "../../assets/Instagram.png";
+import { InstagramEmbed } from "react-social-media-embed";
 
 const Widgets = () => {
-  const InstaPhoto = Insta;
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://weatherwidget.io/js/widget.min.js";
@@ -13,9 +13,9 @@ const Widgets = () => {
   return (
     <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md p-11 w-[575px] h-[300px]">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-3 p-11 w-[555px] h-[495px]">
         <a
-          className="weatherwidget-io"
+          className="weatherwidget-io mt-6"
           href="https://forecast7.com/en/45d52n122d99/hillsboro/"
           data-label_1="HILLSBORO"
           data-label_2="WEATHER"
@@ -23,20 +23,31 @@ const Widgets = () => {
         >
           HILLSBORO WEATHER
         </a>
+        <h2 className="text-lg font-bold text-purple-900 mt-15 mb-3">
+          {" "}
+          Click above to be redirected to the forecast website to see the
+          current weather in my town of Hillsboro.
+        </h2>
       </div>
 
-      {/* Instagram Widget (styled preview) */}
-      <div className="bg-pink-200 rounded-4xl shadow-md p-6 w-[575px] h-[300px] flex flex-col justify-center items-center text-center">
-        <img
-          //src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-          src={InstaPhoto}
-          alt="Instagram"
-          className="w-50 h-50 mb-6"
-        />
+      {/* Instagram Widget */}
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-3 p-6 w-[555px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
         <h2 className="text-lg font-bold text-purple-800 mb-2">
-          Follow Me on Instagram
+          Follow OFOSA on Instagram :D
         </h2>
-        <a
+
+        {/* Embed actual Instagram */}
+        <div className="w-full max-w-xs overflow-hidden rounded-lg">
+          <InstagramEmbed url="https://www.instagram.com/ofosa/" width={328} />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Widgets;
+
+/* <a
           href="https://www.instagram.com/iamkarlamartinez/"
           target="_blank"
           rel="noopener noreferrer"
@@ -50,3 +61,4 @@ const Widgets = () => {
 };
 
 export default Widgets;
+*/

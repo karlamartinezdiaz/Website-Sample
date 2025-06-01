@@ -1,4 +1,4 @@
-import { useState } from "react";
+//import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,23 +10,25 @@ const Navbar = () => {
           {/*HOME */}
           <a
             href="/"
-            className="text-purple-900 font-semi-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg" // Added font-pacifico and text-lg
+            className="text-purple-900 font-bold text-lg px-10 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg" // Added font-pacifico and text-lg
           >
             Home
           </a>
           <Link
             to="/music"
-            className="text-purple-900 font-semibold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg focus:outline-none "
+            className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg focus:outline-none "
           >
             Playlist
           </Link>
-          <span className="text-purple-900 font-semibold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg">
+          <Link
+            to="/contact"
+            className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
+          >
+            Contact Me
+          </Link>
+          <span className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg">
             {" "}
-            Placeholder
-          </span>
-          <span className="text-purple-900 font-semibold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg">
-            {" "}
-            Placeholder
+            Fonts
           </span>
         </div>
       </nav>
