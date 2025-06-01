@@ -9,6 +9,26 @@ const MusicPage = () => {
           Top Songs atm
         </h1>
         <div className="w-full max-w-xl aspect-video rounded-4xl overflow-hidden shadow-lg border-4 border-purple-300 mb-5">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/n3nPiBai66M?si=rLveb-Qe9IUoHzXF" 
+          title="YouTube video player" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full max-w-xl aspect-video rounded-4xl overflow-hidden shadow-lg border-4 border-purple-300 mb-5">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/mHKTdlUyyko?si=dyIb4cm5jC9DUxxR" 
+          title="YouTube video player" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          ></iframe>
+        </div>
+        <div className="w-full max-w-xl aspect-video rounded-4xl overflow-hidden shadow-lg border-4 border-purple-300 mb-5">
           <iframe
             width="100%"
             height="100%"

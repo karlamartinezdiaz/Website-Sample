@@ -5,6 +5,7 @@ import "./App.css";
 import ContactMePage from "./pages/ContactMe/contactMe";
 import LandingPage from "./pages/landingPage/LandingPage";
 import MusicPage from "./pages/musicPage/musicPage";
+import FontPage from "./pages/fontPage/FontPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/music" element={<MusicPage />} />
         <Route path="/contact" element={<ContactMePage />} />
+        <Route path="/font" element={<FontPage />} />
       </Routes>
     </Router>
   );

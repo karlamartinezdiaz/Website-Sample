@@ -10,26 +10,29 @@ const Navbar = () => {
           {/*HOME */}
           <a
             href="/"
-            className="text-purple-900 font-bold text-lg px-10 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg" // Added font-pacifico and text-lg
+            className="text-purple-900 font-bold text-2xl px-10 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg" // Added font-pacifico and text-lg
           >
             Home
           </a>
           <Link
             to="/music"
-            className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg focus:outline-none "
+            className="text-purple-900 font-bold text-2xl px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg focus:outline-none "
           >
             Playlist
           </Link>
           <Link
             to="/contact"
-            className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
+            className="text-purple-900 font-satisfy text-2xl px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
           >
             Contact Me
           </Link>
-          <span className="text-purple-900 font-bold text-lg px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg">
-            {" "}
+          <Link
+            to="/font"
+            className="text-purple-900 font-satisfy text-2xl px-4 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
+          >
             Fonts
-          </span>
+          </Link>
+    
         </div>
       </nav>
     </div>

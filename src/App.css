@@ -10,6 +10,26 @@ body,
   width: 100%;
   min-height: 100vh;
 }
+@font-face {
+  font-family: 'Wondercity';
+  src: url('/fonts/Wondercity.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Calmingly';
+  src: url('/fonts/Calmingly.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.wondercity-font{
+  font-family: 'Wondercity';
+  font-size: larger;
+}
+.calmingly-font {
+  font-family: 'Calmingly', cursive;
+  font-size: 2rem;
+}
 
 #root {
   min-height: 100vh;
