@@ -6,6 +6,7 @@ import ContactMePage from "./pages/ContactMe/contactMe";
 import LandingPage from "./pages/landingPage/LandingPage";
 import MusicPage from "./pages/musicPage/musicPage";
 import FontPage from "./pages/fontPage/FontPage";
+import Navbar from "./components/navbar/navMenu";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

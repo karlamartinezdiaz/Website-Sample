@@ -11,24 +11,74 @@ body,
   min-height: 100vh;
 }
 @font-face {
-  font-family: 'Wondercity';
-  src: url('/fonts/Wondercity.otf') format('truetype');
+  font-family: "SweetyMilkys";
+  src: url("/fonts/SweetyMilkys.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Calmingly';
-  src: url('/fonts/Calmingly.otf') format('truetype');
+  font-family: "Wondercity";
+  src: url("/fonts/Wondercity.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Calmingly";
+  src: url("/fonts/Calmingly.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-.wondercity-font{
-  font-family: 'Wondercity';
+@font-face {
+  font-family: "Loverine";
+  src: url("/fonts/Loverine.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FreshBaked";
+  src: url("/fonts/FreshBaked.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PWMAS";
+  src: url("/fonts/PWMAS.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.pwmas-font {
+  font-family: "PWMAS";
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.freshbaked-font {
+  font-family: "FreshBaked";
+  font-size: xx-large;
+}
+.loverine-font {
+  font-family: "Loverine";
+  font-size: xx-large;
+}
+.sweety-small {
+  font-family: "SweetyMilkys";
+  font-size: large;
+}
+.sweety-font {
+  font-family: "SweetyMilkys";
+  font-size: xx-large;
+}
+.wondercity-big {
+  font-family: "Wondercity";
+  font-size: xx-large;
+}
+
+.wondercity-font {
+  font-family: "Wondercity";
   font-size: larger;
 }
 .calmingly-font {
-  font-family: 'Calmingly', cursive;
-  font-size: 2rem;
+  font-family: "Calmingly", cursive;
+  font-size: 2.5rem;
 }
 
 #root {

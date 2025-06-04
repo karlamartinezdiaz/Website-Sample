@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Insta from "../../assets/Instagram.png";
 import { InstagramEmbed } from "react-social-media-embed";
 
 const Widgets = () => {
@@ -13,7 +12,7 @@ const Widgets = () => {
   return (
     <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-3 p-11 w-[555px] h-[495px]">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-[555px] h-[495px]">
         <a
           className="weatherwidget-io mt-6"
           href="https://forecast7.com/en/45d52n122d99/hillsboro/"
@@ -23,7 +22,7 @@ const Widgets = () => {
         >
           HILLSBORO WEATHER
         </a>
-        <h2 className="text-lg font-bold text-purple-900 mt-15 mb-3">
+        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-15 mb-3">
           {" "}
           Click above to be redirected to the forecast website to see the
           current weather in my town of Hillsboro.
@@ -31,8 +30,8 @@ const Widgets = () => {
       </div>
 
       {/* Instagram Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-3 p-6 w-[555px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
-        <h2 className="text-lg font-bold text-purple-800 mb-2">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-[557px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
+        <h2 className="wondercity-font text-lg font-bold text-purple-800 mb-2">
           Follow OFOSA on Instagram :D
         </h2>
 

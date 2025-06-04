@@ -1,5 +1,3 @@
-//import React from "react";
-//Slideshow";
 import KarlaPhoto from "../../components/landing/KarlaBio";
 import Slideshow from "../../components/landing/Slideshow";
 import Navbar from "../../components/navbar/navMenu";
