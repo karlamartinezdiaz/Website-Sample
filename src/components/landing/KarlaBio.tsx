@@ -3,13 +3,13 @@ import karla from "../../assets/slideshow/912.jpg";
 const KarlaBio = () => {
   const myPhoto = karla;
   return (
-    <div className="overflow-hidden bg-pink-200 min-h-[100px] border-b-4 border-purple-300 items-center justify-center mt-10 p-6 rounded-3xl mx-auto md:max-w-6xl">
+    <div className="w-full max-w-4xl mx-auto px-4 overflow-hidden bg-pink-200 min-h-[100px] border-b-4 border-purple-300 items-center justify-center mt-10 p-6 rounded-3xl mx-auto md:max-w-6xl">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
-        <div className="w-full md:w-auto mb-6 md:mb-0 flex justify-center">
+        <div className="w-full md:w-auto mb-6 md:mb-0 flex justify-center mr-15 ">
           <img
             src={myPhoto}
             alt="Karla Photo"
-            className="w-72 md:w-[300px] rounded-2xl object-cover"
+            className="w-72 md:w-[280px] rounded-2xl object-cover"
           />
         </div>
         <div className="text-purple-900 max-w-xl">

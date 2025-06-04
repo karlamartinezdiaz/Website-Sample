@@ -32,7 +32,7 @@ const Slideshow = () => {
   ];
 
   return (
-    <div className="overflow-hidden flex flex-col bg-pink-200 min-h-[200px] border-b-5 border-purple-300 items-center justify-center mt-10 p-6 rounded-4xl mx-auto md:max-w-6xl">
+    <div className="w -full overflow-hidden flex flex-col bg-pink-200 min-h-[200px] border-b-5 border-purple-300 items-center justify-center mt-10 p-6 rounded-4xl mx-auto md:max-w-6xl">
       <div className="scroll-animation flex overflow-x-auto">
         {kiwiPhotos.map((img, index) => (
           <img

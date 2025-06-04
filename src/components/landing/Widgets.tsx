@@ -36,8 +36,8 @@ const Widgets = () => {
         </h2>
 
         {/* Embed actual Instagram */}
-        <div className="w-full max-w-xs overflow-hidden rounded-lg">
-          <InstagramEmbed url="https://www.instagram.com/ofosa/" width={328} />
+        <div className="w-full max-w-xs rounded-lg ">
+          <InstagramEmbed url="https://www.instagram.com/ofosa/" width={338} />
         </div>
       </div>
     </div>
