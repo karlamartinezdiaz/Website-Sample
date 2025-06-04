@@ -30,7 +30,7 @@ const Widgets = () => {
       </div>
 
       {/* Instagram Widget */}
-      <div className="flex flex-col bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-[557px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-[557px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
         <h2 className="wondercity-font text-lg font-bold text-purple-800 mb-2">
           Follow OFOSA on Instagram :D
         </h2>
