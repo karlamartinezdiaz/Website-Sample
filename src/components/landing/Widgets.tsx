@@ -12,7 +12,7 @@ const Widgets = () => {
   return (
     <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-[555px] h-[495px]">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-full max-w-[555px] h-[495px]">
         <a
           className="weatherwidget-io mt-6"
           href="https://forecast7.com/en/45d52n122d99/hillsboro/"
@@ -30,7 +30,7 @@ const Widgets = () => {
       </div>
 
       {/* Instagram Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-[557px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-full max-w-[555px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
         <h2 className="wondercity-font text-lg font-bold text-purple-800 mb-2">
           Follow OFOSA on Instagram :D
         </h2>
