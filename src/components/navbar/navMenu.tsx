@@ -14,7 +14,7 @@ const Navbar = () => {
             href="/"
             className="freshbaked-font text-purple-900 font-bold text-2xl px-2 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg underline"
           >
-            Ladies Club
+            The Ladies Club
           </a>
 
           {/* Hamburger Menu (Mobile) */}

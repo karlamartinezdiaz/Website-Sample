@@ -12,7 +12,7 @@ const FontPage = () => {
         {/* Font Card Template */}
         <div className="bg-pink-200 rounded-3xl shadow-md border-purple-300 border-b-4 p-6 w-full max-w-lg min-h-[200px] mb-6">
           <h2 className="loverine-font text-lg md:text-xl">
-            Font 1: Ladies club
+            Font 1: The Ladies club
           </h2>
           <h2 className="loverine-font text-base md:text-lg">
             Font Name: Loverine
@@ -27,7 +27,7 @@ const FontPage = () => {
 
         <div className="bg-pink-200 rounded-3xl shadow-md border-purple-300 border-b-4 p-6 w-full max-w-lg min-h-[200px] mb-6">
           <h2 className="freshbaked-font text-lg md:text-xl">
-            Font 2: Ladies club
+            Font 2: The Ladies club
           </h2>
           <h2 className="freshbaked-font text-base md:text-lg">
             Font Name: Fresh Baked
@@ -40,7 +40,9 @@ const FontPage = () => {
         </div>
 
         <div className="bg-pink-200 rounded-3xl shadow-md border-purple-300 border-b-4 p-6 w-full max-w-lg min-h-[200px] mb-6">
-          <h2 className="pwmas-font text-lg md:text-xl">Font 3: Ladies club</h2>
+          <h2 className="pwmas-font text-lg md:text-xl">
+            Font 3: The Ladies club
+          </h2>
           <h2 className="pwmas-font text-base md:text-lg">
             Font Name: Please write me a song
           </h2>
