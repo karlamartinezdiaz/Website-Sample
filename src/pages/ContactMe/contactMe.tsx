@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { FiPhone, FiMail, FiGlobe, FiMapPin, FiClock } from "react-icons/fi";
+//import { FiPhone, FiMail, FiGlobe, FiMapPin, FiClock } from "react-icons/fi";
 import Navbar from "../../components/navbar/navMenu";
 import GoogleFormEmbed from "../../components/contact/googleForm";
 
