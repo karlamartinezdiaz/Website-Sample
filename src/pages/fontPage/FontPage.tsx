@@ -45,9 +45,10 @@ const FontPage = () => {
             Font Name: Please write me a song
           </h2>
           <p className="text-sm md:text-base mt-4 leading-relaxed">
-            Perspective: This font is very different—simple, readable, and
-            subtly elegant. It doesn’t have the same flair, but its clarity
-            makes it a strong contender for body text or supporting sections.
+            Perspective: This font is very different from the intial two fonts
+            its simple, but more readable, and subtly elegant. It doesn’t have
+            the same flair, but its clarity makes it a strong contender for body
+            text or larger sections of text that need to be conveyed clearly.
           </p>
         </div>
       </div>
