@@ -25,7 +25,7 @@ const Widgets = () => {
           </a>
         </div>
 
-        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-4 mb-6">
+        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-4 mb-25">
           Click above to be redirected to the forecast website to see the
           current weather in my town of Hillsboro.
         </h2>
