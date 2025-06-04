@@ -5,7 +5,7 @@ const KarlaBio = () => {
   return (
     <div className="w-full max-w-4xl mx-auto px-4 overflow-hidden bg-pink-200 min-h-[100px] border-b-4 border-purple-300 items-center justify-center mt-10 p-6 rounded-3xl mx-auto md:max-w-6xl">
       <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-center md:text-left">
-        <div className="w-full md:w-auto mb-6 md:mb-0 flex justify-center mr-15 ">
+        <div className="w-full md:w-auto mb-6 md:mb-0 flex justify-center  ">
           <img
             src={myPhoto}
             alt="Karla Photo"

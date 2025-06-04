@@ -12,7 +12,7 @@ const Widgets = () => {
   return (
     <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="flex flex-col bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-[555px] h-[495px]">
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-[555px] h-[495px]">
         <a
           className="weatherwidget-io mt-6"
           href="https://forecast7.com/en/45d52n122d99/hillsboro/"
