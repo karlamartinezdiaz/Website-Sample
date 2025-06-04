@@ -12,18 +12,20 @@ const Widgets = () => {
   return (
     <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-11 w-full max-w-[555px] h-[495px]">
-        <a
-          className="weatherwidget-io mt-6"
-          href="https://forecast7.com/en/45d52n122d99/hillsboro/"
-          data-label_1="HILLSBORO"
-          data-label_2="WEATHER"
-          data-theme="pure"
-        >
-          HILLSBORO WEATHER
-        </a>
-        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-15 mb-3">
-          {" "}
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-full max-w-[555px] h-[495px] flex flex-col justify-between overflow-hidden">
+        <div className="w-full overflow-x-auto">
+          <a
+            className="weatherwidget-io block min-w-[320px]"
+            href="https://forecast7.com/en/45d52n122d99/hillsboro/"
+            data-label_1="HILLSBORO"
+            data-label_2="WEATHER"
+            data-theme="pure"
+          >
+            HILLSBORO WEATHER
+          </a>
+        </div>
+
+        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-4 mb-6">
           Click above to be redirected to the forecast website to see the
           current weather in my town of Hillsboro.
         </h2>
