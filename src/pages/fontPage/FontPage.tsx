@@ -5,7 +5,7 @@ const FontPage = () => {
     <div className="bg-purple-100 min-h-screen w-full">
       <Navbar />
       <div className="flex flex-col items-center justify-center p-4 md:p-8">
-        <h1 className="font-bold text-purple-375 mt-1 mb-5 text-center text-xl md:text-2xl">
+        <h1 className="font-bold text-purple-300 mt-1 mb-5 text-center text-xl md:text-2xl">
           Fonts I might use for the Ladies Club site
         </h1>
 
