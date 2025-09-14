@@ -14,7 +14,7 @@ const Navbar = () => {
             href="/"
             className="freshbaked-font text-purple-900 font-bold text-2xl px-2 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg underline"
           >
-            The Ladies Club
+            Karla Martinez
           </a>
 
           {/* Hamburger Menu (Mobile) */}
@@ -44,7 +44,7 @@ const Navbar = () => {
               to="/font"
               className="wondercity-big text-purple-900 font-satisfy text-2xl px-20 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
             >
-              Fonts
+              Blog
             </Link>
           </div>
         </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
               className="block wondercity-big text-purple-900 font-satisfy text-xl py-2 rounded-md hover:shadow-md"
             >
-              Fonts
+              Experience
             </Link>
           </div>
         )}

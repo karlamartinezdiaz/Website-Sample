@@ -17,17 +17,16 @@ const KarlaBio = () => {
             Hi, my name is Karla Martinez
           </h2>
           <p className="wondercity-font text-lg leading-relaxed mt-3">
-            I'm a passionate web developer with a love for my dog Kiwi, as shown
-            in the slideshow below. I will be graduating this coming June 2025
+            I'm a passionate web developer with a love for my recently adopted
+            dog Kiwi, as shown in the slideshow below. I have recently graduated
             from Portland State University with my Bachelor's of Science in
-            Computer Science. Throughout my time at PSU I tutored incoming
-            Computer Science students to thrive in their course work. I would
-            love to apply all that I've learned at my time as a student in a
-            real world setting like assisting the Ladies Club with their Web
-            Development endeavors. This website includes a navbar with four
-            different pages and is desktop, tablet and phone compatible. I hope
-            this simple website displays my eagerness to learn and grow
-            alongside a team of other professionals.
+            Computer Science. Throughout my time at Portland State I tutored
+            incoming Computer Science students to thrive in their course work,
+            mainly in C++. I would love to apply all that I've learned at my
+            time as a student in a real world setting. This website includes a
+            navbar with four different pages and is desktop, tablet and phone
+            compatible. I hope this simple website displays my eagerness to
+            learn and grow alongside a team of other professionals.
           </p>
         </div>
       </div>
