@@ -1,4 +1,4 @@
-import karla from "../../assets/slideshow/912.jpg";
+import karla from "../../assets/slideshow/ProfileWeb.jpg";
 
 const KarlaBio = () => {
   const myPhoto = karla;
@@ -9,12 +9,12 @@ const KarlaBio = () => {
           <img
             src={myPhoto}
             alt="Karla Photo"
-            className="w-72 md:w-[280px] rounded-2xl object-cover"
+            className="w-92 md:w-[380px] rounded-2xl object-cover"
           />
         </div>
-        <div className="text-purple-900 max-w-xl">
+        <div className="text-purple-960 max-w-xl">
           <h2 className="wondercity-big text-3xl font-bold mb-4 mt-5">
-            Hi, my name is Karla Martinez
+            Hi, my name is Karla Martinez 
           </h2>
           <p className="wondercity-font text-lg leading-relaxed mt-3">
             I'm a passionate web developer with a love for my recently adopted

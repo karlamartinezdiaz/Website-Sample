@@ -10,36 +10,28 @@ const Widgets = () => {
   }, []);
 
   return (
-    <div className="flex flex-col md:flex-row gap-6 justify-center items-center mt-10">
+    <div className="flex flex-col md:flex-row gap-19 justify-center items-center mt-10">
       {/* Weather Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-full max-w-[555px] h-[495px] flex flex-col justify-between overflow-hidden">
-        <div className="w-full overflow-x-auto">
-          <a
-            className="weatherwidget-io block min-w-[320px]"
-            href="https://forecast7.com/en/45d52n122d99/hillsboro/"
-            data-label_1="HILLSBORO"
-            data-label_2="WEATHER"
-            data-theme="pure"
-          >
-            HILLSBORO WEATHER
-          </a>
-        </div>
-
-        <h2 className="wondercity-font text-lg font-bold text-purple-900 mt-4 mb-25">
-          Click above to be redirected to the forecast website to see the
-          current weather in my town of Hillsboro.
-        </h2>
-      </div>
-
-      {/* Instagram Widget */}
-      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-5 p-6 w-full max-w-[555px] h-[495px] flex flex-col justify-center items-center text-center overflow-hidden">
-        <h2 className="wondercity-font text-lg font-bold text-purple-800 mb-2">
-          Follow OFOSA on Instagram :D
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-6 p-9 w-full max-w-[555px] h-[555px] flex flex-col justify-center items-center text-center overflow-hidden">
+        <h2 className="wondercity-big font-bold text-purple-1000 mb-2">
+          Follow me on insta  
         </h2>
 
         {/* Embed actual Instagram */}
         <div className="w-full max-w-xs rounded-lg ">
-          <InstagramEmbed url="https://www.instagram.com/ofosa/" width={338} />
+          <InstagramEmbed url="https://www.instagram.com/pucca.and.friends/" width={328} />
+        </div>
+      </div>
+
+      {/* Instagram Widget */}
+      <div className="bg-pink-200 rounded-4xl shadow-md border-purple-300 border-b-6 p-6 w-full max-w-[555px] h-[555px] flex flex-col justify-center items-center text-center overflow-hidden">
+        <h2 className="wondercity-big font-bold text-purple-1000 mb-2">
+          Follow OFOSA
+        </h2>
+
+        {/* Embed actual Instagram */}
+        <div className="w-full max-w-xs rounded-lg ">
+          <InstagramEmbed url="https://www.instagram.com/ofosa/" width={328} />
         </div>
       </div>
     </div>

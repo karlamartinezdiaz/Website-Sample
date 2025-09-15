@@ -39,13 +39,13 @@ const ContactMePage = () => {
   };
 
   const myGoogleFormUrl =
-    "https://docs.google.com/forms/d/e/1FAIpQLSdEDXh4ffiOlw9wteL2y32BL4Z1DX2Y9BLDF0TDLq-XYTMHnw/viewform?usp=header";
+    "https://docs.google.com/forms/d/e/1FAIpQLSfA-81rkSwOCOsBlNrAwhPOWMwpujHE9uuJTZ9SejzPkNeHYw/viewform?usp=sharing&ouid=100196195511915061729";
 
   return (
     <div className="bg-purple-100 min-h-screen p-full">
       <Navbar />
       <h2 className="text-3xl font-bold text-black m-6 text-center max-w-5xl mx-auto">
-        {t("Contact Us!")}
+        {t("Contact Me!")}
       </h2>
 
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 text-gray-700">
@@ -106,7 +106,7 @@ const ContactMePage = () => {
 
         {/* Google form  */}
         <div className="space-y-2 bg-pink-200 p-4 shadow-md border-b-3 border-purple-300 rounded-xl text-gray-700">
-          <h2 className="text-2xl font-bold text-black">Google Form</h2>
+          <h2 className="text-2xl font-bold text-black"></h2>
 
           <div className="w-full h-[600px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
             <GoogleFormEmbed

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X } from "lucide-react"; // If not installed: npm install lucide-react
+import { Menu, X} from "lucide-react"; // If not installed: npm install lucide-react
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
           {/* Brand / Home */}
           <a
             href="/"
-            className="freshbaked-font text-purple-900 font-bold text-2xl px-2 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg underline"
+            className="freshbaked-font text-purple-9000 font-bold text-2xl px-2 py-2 rounded-md duration-200 underline"
           >
             Karla Martinez
           </a>
@@ -41,10 +41,10 @@ const Navbar = () => {
               Contact Me
             </Link>
             <Link
-              to="/font"
+              to="/experience"
               className="wondercity-big text-purple-900 font-satisfy text-2xl px-20 py-2 rounded-md transition-shadow duration-200 hover:shadow-lg"
             >
-              Blog
+              Experience
             </Link>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Navbar = () => {
               Contact Me
             </Link>
             <Link
-              to="/font"
+              to="/experience"
               onClick={() => setIsOpen(false)}
               className="block wondercity-big text-purple-900 font-satisfy text-xl py-2 rounded-md hover:shadow-md"
             >
