@@ -46,9 +46,15 @@ body,
   font-weight: normal;
   font-style: normal;
 }
+
 .pwmas-font {
   font-family: "PWMAS";
   font-size: xx-large;
+  font-weight: bolder;
+}
+.pwmasmall-font {
+  font-family: "PWMAS";
+  font-size: large;
   font-weight: bolder;
 }
 .freshbaked-font {
